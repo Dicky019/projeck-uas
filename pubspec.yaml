@@ -1,0 +1,58 @@
+name: projeck_uas
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # upload file to firebase
+  firebase_core: ^1.0.3
+  firebase_storage: ^8.0.3
+  cloud_firestore: "^1.0.3"
+  firebase_auth:
+
+  form_field_validator: ^1.1.0
+  shared_preferences: ^2.0.5
+  google_fonts: ^2.0.0
+  
+  # Routing
+  get:
+
+  flutter_svg: ^0.22.0
+
+  flutter_slidable: ^0.6.0
+
+  community_material_icon: ^5.9.55
+  font_awesome_flutter: ^9.0.0
+
+  # pick file
+  file_picker: ^3.0.1
+
+dev_dependencies:
+  flutter_native_splash: ^1.1.8+4
+  flutter_launcher_icons: ^0.9.0
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/image/logo.png
+  android : true
+  ios : true
+
+flutter_icons:
+  image_path: assets/image/logo.png
+  android : true
+  ios : true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/svg/
